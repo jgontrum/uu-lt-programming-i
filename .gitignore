@@ -103,3 +103,4 @@ ENV/
 # Don't upload the assignemnt PDFs
 *.pdf
 
+.DS_Store
