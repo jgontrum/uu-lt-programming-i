@@ -1,0 +1,20 @@
+1.:  Version 25.2.1
+2.:  C-c C-v
+3.:  'Remove other windows'
+4.:  NameError: name 'square' is not defined
+5.:  #
+6.:  3.0
+7.:  0.3333333333333333
+8.:  3.0
+9.:  SyntaxError: invalid syntax
+10.: 'greenblack'
+11.: 'spamspamspam'
+12.: TypeError: can't multiply sequence by non-int of type 'float'
+13.: TypeError: can't multiply sequence by non-int of type 'float'
+14.: 17 41 spam
+15.: x = 100, y = 10
+16.: x += 1
+17.: 25
+18.: ...
+19.: C-c C-z
+20.: 70 degrees!
