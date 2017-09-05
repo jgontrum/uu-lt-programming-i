@@ -1,0 +1,124 @@
+1:
+gontrum@numerus$ cd ~
+gontrum@numerus$ pwd
+/home/m17/gontrum
+
+2:
+/
+
+3:
+You stay in '/'
+
+4:
+In the title of the window (Sorry, I'm doing this from home via ssh)
+
+5:
+Home symbol?
+
+6:
+The Property Man
+
+7:
+gontrum@numerus$ python
+Python 3.4.5 (default, May 29 2017, 15:17:55)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-11)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = 42
+>>> orig = 4
+>>> x *= 2
+>>> x += 9
+>>> x -= 3
+>>> x /= 2
+>>> x -= orig
+>>> print(x)
+3.0
+
+8:
+gontrum@numerus$ python describe-numbers.py
+The number 5 is a very interesting number.
+The square of 5 is 25 and the cube of 5 is 125
+
+This line shows how big 5 is:
+-----
+
+The number 6 is a very interesting number.
+The square of 6 is 36 and the cube of 6 is 216
+
+This line shows how big 6 is:
+------
+
+The number 7 is a very interesting number.
+The square of 7 is 49 and the cube of 7 is 343
+
+This line shows how big 7 is:
+-------
+
+The number 8 is a very interesting number.
+The square of 8 is 64 and the cube of 8 is 512
+
+This line shows how big 8 is:
+--------
+
+The number 9 is a very interesting number.
+The square of 9 is 81 and the cube of 9 is 729
+
+This line shows how big 9 is:
+---------
+
+The number 10 is a very interesting number.
+The square of 10 is 100 and the cube of 10 is 1000
+
+This line shows how big 10 is:
+----------
+
+9:
+python describe-numbers.py > about-numbers.txt
+
+10:
+5, 10
+
+11:
+<class 'int'>
+
+12:
+<class 'float'>
+
+13:
+<class 'str'>
+
+14:
+>>> str(2001)
+'2001'
+
+15:
+>>> float(4711)
+4711.0
+
+16:
+>>> float('1.18')
+1.18
+
+17:
+>>> int('zero')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'zero'
+
+18:
+>>> int(3.14)
+3
+
+19:
+99 raised to 10 has 20 digits.
+(90438207500880449001)
+
+20:
+gontrum@numerus$ python root.py
+Enter a number to calculate its square root: 11
+After iteration 1 my guess is 4.791666666666667
+After iteration 2 my guess is 3.5436594202898553
+After iteration 3 my guess is 3.3238976003345906
+After iteration 4 my guess is 3.3166327469430197
+After iteration 5 my guess is 3.3166247903649437
+The correct square root is  3.3166247903554
+
