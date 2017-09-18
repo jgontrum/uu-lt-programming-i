@@ -1,0 +1,19 @@
+5a6,17
+> 
+> def turnright():
+>     right(10)
+> 
+> 
+> def pen_toggle():
+>     if isdown():
+>         penup()
+>     else:
+>         pendown()
+> 
+> 
+13c25,27
+<           
+---
+> onkey(turnright, 'Right')
+> onkey(pen_toggle, ' ')
+> 
