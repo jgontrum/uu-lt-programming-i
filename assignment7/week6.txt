@@ -1,0 +1,7 @@
+1.: 
+>>> import pronouncing
+>>> pronouncing.phones_for_word("railway")
+
+2.: ['R EY1 L W EY2']
+
+3.: Empty list ([])
